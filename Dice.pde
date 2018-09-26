@@ -1,8 +1,13 @@
+
 int CarpoolTunnel = 0;
 void setup()
   {
     size(600,690);
     background(255);
+  void setup()
+  {
+    size(600,600);
+
       noLoop();
   }
   void draw()
@@ -34,6 +39,26 @@ void setup()
       }
       void show()
       {     
+    Die Bob = new Die();
+    Bob.show();
+  }
+  void mousePressed()
+  {
+      redraw();
+  }
+  class Die
+  {
+      int x,y,W,Number;
+      Die()
+      {
+        W = 40;
+      }
+      void roll()
+      {
+        
+      }
+      void show()
+      {
         for (float x = 20; x <=550; x+=40)
         {
           for(float y = 20; y <=550; y+=40)
@@ -134,3 +159,13 @@ text(Si,375,680);
 
 
 }
+=======
+             for (Number = ((int)(Math.random()*6)+1);Number <=6;Number++)
+      { 
+       ellipse((x+20),(y+20),2.5,2.5);
+      }
+          }
+      }
+  }
+}
+>>>>>>> 14e78a69ef0a66b8439bc94f6e0111a2ed735829
