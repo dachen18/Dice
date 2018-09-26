@@ -84,7 +84,7 @@ void setup()
               ellipse(x+32,y+32,2.5,2.5);
               ellipse(x+8,y+32,2.5,2.5);
               ellipse(x+32,y+8,2.5,2.5);
-              ellipse(x+20,x+20,2.5,2.5);
+              ellipse(x+20,y+20,2.5,2.5);
               Sum = Sum + 5;
               Fi = Fi + 1;
             }
