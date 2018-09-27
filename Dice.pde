@@ -3,7 +3,7 @@ int CarpoolTunnel = 0;
 void setup()
   {
     size(600,690);
-    background(255);
+    background((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
     noLoop();
   }
   void draw()
